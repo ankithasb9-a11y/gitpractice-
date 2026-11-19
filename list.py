@@ -14,3 +14,10 @@ numbers.reverse()
 print(numbers)
 numbers.sort()
 print(numbers)
+print(max(numbers))
+print(min(numbers))
+print(sum(numbers))
+print(len(numbers))
+
+
+
