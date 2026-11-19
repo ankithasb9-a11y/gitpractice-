@@ -48,12 +48,21 @@
 
 
 
-a = set(frozenset([1,2,3]))
-print(a)
-print(len(a))
-b = {8,9,2,1,3}
-print(a.issuperset(b))
+# a = set(frozenset([1,2,3]))
+# print(a)
+# print(len(a))
+# b = {8,9,2,1,3}
+# print(a.issuperset(b))
 
-c = (a | b) - (a & b)
-d = a ^ b
-print(c == d)
+# c = (a | b) - (a & b)
+# d = a ^ b
+# print(c == d)
+
+a = dict(name="Anu", age=21)
+# print(a)
+
+# c ={1: "a",1.0: "c",True: "b"}
+print(a)
+print(a.items())
+print(a.values())
+print(a.keys())
