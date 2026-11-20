@@ -58,11 +58,15 @@
 # d = a ^ b
 # print(c == d)
 
-a = dict(name="Anu", age=21)
+# a = dict(name="Anu", age=21)
 # print(a)
 
 # c ={1: "a",1.0: "c",True: "b"}
-print(a)
-print(a.items())
-print(a.values())
-print(a.keys())
+# print(a)
+# print(a.items())
+# print(a.values())
+# print(a.keys())
+
+
+print("Python" == "python")
+print("Apple" < "Banana")
