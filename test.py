@@ -171,10 +171,9 @@
 # }
 # print(students["student2"]["age"])
     
-a = {"a":10,"b":20}
-b = {"c":30,"d":40}
-print(list(reversed(b.values())))
 
+s = frozenset({1,2,3},[4,5,6])
+print(s)
 
 
 
