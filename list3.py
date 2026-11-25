@@ -1,98 +1,74 @@
-# # numbers = [10,15,20,25,30,35,40,45]
-# # even_list = numbers[::2]
-# # odd_list = numbers[1::2]
-# # print(numbers)
-# # print(even_list)
-# # print(odd_list)
+ numbers = [10,15,20,25,30,35,40,45]
+ even_list = numbers[::2]
+ odd_list = numbers[1::2]
+ print(numbers)
+ print(even_list)
+ print(odd_list)
+
+factorial of a number
+num = 5
+fact = 1
+for i in range(1,num+1):
+    fact = fact*i
+print("Factorial:",fact) 
+
+count the vowels
+s = "python programming"
+count = 0
+for ch in s:
+    if ch in "aeiou":
+        count+=1
+print("vowel count:",count)  
+
+ palindrome
+s = "madam"
+rev = ""
+for ch in s:
+    rev = ch + rev
+print(rev)
+if rev == s:
+    print("it is palindrome")
+else:
+    print("not palindrome")
 
 
-# #Arithmetic operator
-
-# a=10
-# b=3
-# print(a+b)
-# print(a-b)
-# print(a*b)
-# print(a/b)
-# print(a//b)
-# print(a%b)
-# print(a**b)
+multiplication table
+num = 5
+for i in range(1,11):
+    print(num,"X",i,"-",num*i)
 
 
-# #Comparison opertor
-
-# a=10
-# b=5
-# print(a==b)
-# print(a!=b)
-# print(a>b)
-# print(a<b)
-# print(a>=b)
-# print(a<=b)
-
-# #Assignment operator
-# a=10
-# a+=5
-# print(a)
-# a=10
-# a-=5
-# print(a)
-# a=10
-# a*=5
-# print(a)
-# a=10
-# a/=5
-# print(a)
-# a=10
-# a//=5
-# print(a)
-# a=10
-# a%=5
-# print(a)
-# a=10
-# a**=5
-# print(a)
+#prime numbers
+num = 7
+count = 0
+for i in range(1,num+1):
+    if num%i==0:
+        count+=1
+if count==2:
+    print("prime number")
+else:
+     print("not a prime number")
 
 
-# #logical operator
-# a=10
-# b=5
-# print(a>5 and b<10)
-# print(a>15 or b<10)
-# print(not(a>5))
+# fibonacci series
+a = 0
+b = 1
+for i in range(7):
+    print(a)
+    c = a + b
+    a = b
+    b = c
 
 
-# #bitwise operator
 
-a=10
-a&=5
-print(a)
-a=10
-a|=5
-print(a)
-a=10
-a^=5
-print(a)
-a=10
-a>>=1
-print(a)
-a=10
-a<<=1
-print(a)
 
-# #membership operator
-# a=[10,20,30]
-# print(20 in a)
-# print(50 not in a)
 
-# #indentity operator
-# a=[10,20,30]
-# b=a
-# c=[10,20,30]
-# print(a is b)
-# print(a is c)
-# print(a==c)
-# print(a is not b)
+
+
+           
+    
+
+
 
 
 
