@@ -76,13 +76,18 @@
 # Coupon SAVE10 gives 10% off only on orders above ₹1,000. Coupon FREESHIP removes shipping. 
 # Any other code is invalid.
 
-coupon = input("enter the coupon")
-order = int(input("enter you order price"))
+# coupon = input("enter the coupon")
+# order = int(input("enter you order price"))
 
- if coupon == "SAVE10" and order > 1000:
-    print("gives 10% off")
-elif coupon == "FREESHIP":
-    print("Remove shipping")
-else:
-    print("invalid code")
+# if coupon == "SAVE10" and order > 1000:
+#     print("gives 10% off")
+# elif coupon == "FREESHIP":
+#     print("Remove shipping")
+# else:
+#     print("invalid code")
 
+n=5
+total = 0
+for i in range(1,n+1):
+    total += i
+print(total)
