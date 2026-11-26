@@ -211,14 +211,15 @@
 #     fact *= i
 #     print(fact) 
 
-# l =[1,2,3,5]
-# largest = smallest = l[0]
-# for i in l:
-#     if i>largest:
-#         largest = i
-#     if i<smallest:
-#         smallest = i
-# print(largest,smallest)
+l =[1,2,3,5]
+largest = second = l[0]
+for i in l:
+    if i>largest:
+        second = largest
+        largest = i
+    elif i>second and i!=largest:
+        second = i
+print(largest,second)
 # n=7
 # count = 0
 # for i in range(1,n+1):
@@ -240,7 +241,7 @@
 #         zero += 1
 # print(pos,neg,zero)
 
-a,b=0,1
-for _ in range(8):
-    print(a,end="")
-    a,b=b,a+b
+# a,b=0,1
+# for _ in range(8):
+#     print(a,end="")
+#     a,b=b,a+b
