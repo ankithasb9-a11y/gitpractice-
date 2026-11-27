@@ -49,11 +49,12 @@ if count==2:
 else:
      print("not a prime number")
 
-
 # fibonacci series
 a = 0
 b = 1
-for i in range(7):
+for i in range(7num = 7
+count = 0
+):
     print(a)
     c = a + b
     a = b
